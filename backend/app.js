@@ -34,5 +34,5 @@ app.use(errorHandler);
 // server
 app.listen(3000, () => {
 	connectDB();
-	console.log(`🔥 Server is running on port http://localhost:3000`);
+	console.log(`🔥 Server is running on port ${process.env.APP_URL}`);
 });
