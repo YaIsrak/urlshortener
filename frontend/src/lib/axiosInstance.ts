@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-// todo:
-export const serverUrl = 'http://localhost:3000';
+export const serverUrl = 'https://urlshortener-kfrc.onrender.com';
 
 const axiosInstance = axios.create({
 	baseURL: serverUrl,
